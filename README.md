@@ -10,10 +10,10 @@ Simple calculator API hosted on APIMATIC
 Run the following command from your project directory to install the package from npm:
 
 ```ts
-npm install hammett-washington-sdk@1.2.7
+npm install hammett-washington-sdk@1.2.8
 ```
 
-For additional package details, see the [Npm page for the hammett-washington-sdk@1.2.7 npm](https://www.npmjs.com/package/hammett-washington-sdk/v/1.2.7).
+For additional package details, see the [Npm page for the hammett-washington-sdk@1.2.8 npm](https://www.npmjs.com/package/hammett-washington-sdk/v/1.2.8).
 
 ## Test the SDK
 
@@ -33,7 +33,7 @@ npm run test:coverage
 
 ## Initialize the API Client
 
-**_Note:_** Documentation for the client can be found [here.](https://www.github.com/ZahraN444/hammett-washington-js-sdk/tree/1.2.7/doc/client.md)
+**_Note:_** Documentation for the client can be found [here.](https://www.github.com/ZahraN444/hammett-washington-js-sdk/tree/1.2.8/doc/client.md)
 
 The following parameters are configurable for the API Client:
 
@@ -76,10 +76,10 @@ const client = new Client({
 
 ## List of APIs
 
-* [Simple Calculator](https://www.github.com/ZahraN444/hammett-washington-js-sdk/tree/1.2.7/doc/controllers/simple-calculator.md)
+* [Simple Calculator](https://www.github.com/ZahraN444/hammett-washington-js-sdk/tree/1.2.8/doc/controllers/simple-calculator.md)
 
 ## Classes Documentation
 
-* [ApiResponse](https://www.github.com/ZahraN444/hammett-washington-js-sdk/tree/1.2.7/doc/api-response.md)
-* [ApiError](https://www.github.com/ZahraN444/hammett-washington-js-sdk/tree/1.2.7/doc/api-error.md)
+* [ApiResponse](https://www.github.com/ZahraN444/hammett-washington-js-sdk/tree/1.2.8/doc/api-response.md)
+* [ApiError](https://www.github.com/ZahraN444/hammett-washington-js-sdk/tree/1.2.8/doc/api-error.md)
 
