@@ -5,8 +5,8 @@
  */
 
 import { OperationTypeEnum, SimpleCalculatorController } from '../src';
-import { testClient } from './testClient';
-import { makeApiCall } from './testHelper';
+import { testClient } from './testClient.js';
+import { makeApiCall } from './testHelper.js';
 
 describe('SimpleCalculatorController', () => {
   let controller : SimpleCalculatorController;
@@ -22,9 +22,7 @@ describe('SimpleCalculatorController', () => {
       y: 5
     }
 
-    const response = await makeApiCall(
-      () => controller.getCalculate(collect)
-    );
+    const response = await makeApiCall(() => controller.getCalculate(collect));
 
     expect(response.statusCode).toBe(200);
 

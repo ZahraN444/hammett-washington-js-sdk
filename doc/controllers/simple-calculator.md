@@ -14,10 +14,18 @@ const simpleCalculatorController = new SimpleCalculatorController(client);
 Calculates the expression using the specified operation.
 
 ```ts
-async getCalculate(  operation: OperationTypeEnum,
-  x: number,
-  y: number,
-requestOptions?: RequestOptions): Promise<ApiResponse<number>>
+async getCalculate(
+  {
+    operation,
+    x,
+    y,
+  }: {
+    operation: OperationTypeEnum;
+    x: number;
+    y: number;
+  },
+  requestOptions?: RequestOptions
+): Promise<ApiResponse<number>>
 ```
 
 ## Parameters
@@ -31,7 +39,7 @@ requestOptions?: RequestOptions): Promise<ApiResponse<number>>
 
 ## Response Type
 
-`number`
+This method returns an [`ApiResponse`](../../doc/api-response.md) instance. The `result` property of this instance returns the response data which is of type `number`.
 
 ## Example Usage
 
