@@ -10,10 +10,10 @@ Simple calculator API hosted on APIMATIC
 Run the following command from your project directory to install the package from npm:
 
 ```bash
-npm install hammett-washington-sdk@1.7.3
+npm install hammett-washington-sdk@1.7.4
 ```
 
-For additional package details, see the [Npm page for the hammett-washington-sdk@1.7.3 npm](https://www.npmjs.com/package/hammett-washington-sdk/v/1.7.3).
+For additional package details, see the [Npm page for the hammett-washington-sdk@1.7.4 npm](https://www.npmjs.com/package/hammett-washington-sdk/v/1.7.4).
 
 ## Test the SDK
 
@@ -33,7 +33,7 @@ npm run test:coverage
 
 ## Initialize the API Client
 
-**_Note:_** Documentation for the client can be found [here.](https://www.github.com/ZahraN444/hammett-washington-js-sdk/tree/1.7.3/doc/client.md)
+**_Note:_** Documentation for the client can be found [here.](https://www.github.com/ZahraN444/hammett-washington-js-sdk/tree/1.7.4/doc/client.md)
 
 The following parameters are configurable for the API Client:
 
@@ -41,7 +41,7 @@ The following parameters are configurable for the API Client:
 |  --- | --- | --- |
 | environment | `Environment` | The API environment. <br> **Default: `Environment.Production`** |
 | timeout | `number` | Timeout for API calls.<br>*Default*: `0` |
-| httpClientOptions | [`Partial<HttpClientOptions>`](https://www.github.com/ZahraN444/hammett-washington-js-sdk/tree/1.7.3/doc/http-client-options.md) | Stable configurable http client options. |
+| httpClientOptions | [`Partial<HttpClientOptions>`](https://www.github.com/ZahraN444/hammett-washington-js-sdk/tree/1.7.4/doc/http-client-options.md) | Stable configurable http client options. |
 | unstableHttpClientOptions | `any` | Unstable configurable http client options. |
 
 The API client can be initialized as follows:
@@ -57,22 +57,22 @@ const client = new Client({
 
 ## List of APIs
 
-* [Simple Calculator](https://www.github.com/ZahraN444/hammett-washington-js-sdk/tree/1.7.3/doc/controllers/simple-calculator.md)
+* [Simple Calculator](https://www.github.com/ZahraN444/hammett-washington-js-sdk/tree/1.7.4/doc/controllers/simple-calculator.md)
 
 ## SDK Infrastructure
 
 ### Configuration
 
-* [HttpClientOptions](https://www.github.com/ZahraN444/hammett-washington-js-sdk/tree/1.7.3/doc/http-client-options.md)
-* [RetryConfiguration](https://www.github.com/ZahraN444/hammett-washington-js-sdk/tree/1.7.3/doc/retry-configuration.md)
-* [ProxySettings](https://www.github.com/ZahraN444/hammett-washington-js-sdk/tree/1.7.3/doc/proxy-settings.md)
+* [HttpClientOptions](https://www.github.com/ZahraN444/hammett-washington-js-sdk/tree/1.7.4/doc/http-client-options.md)
+* [RetryConfiguration](https://www.github.com/ZahraN444/hammett-washington-js-sdk/tree/1.7.4/doc/retry-configuration.md)
+* [ProxySettings](https://www.github.com/ZahraN444/hammett-washington-js-sdk/tree/1.7.4/doc/proxy-settings.md)
 
 ### HTTP
 
-* [HttpRequest](https://www.github.com/ZahraN444/hammett-washington-js-sdk/tree/1.7.3/doc/http-request.md)
+* [HttpRequest](https://www.github.com/ZahraN444/hammett-washington-js-sdk/tree/1.7.4/doc/http-request.md)
 
 ### Utilities
 
-* [ApiResponse](https://www.github.com/ZahraN444/hammett-washington-js-sdk/tree/1.7.3/doc/api-response.md)
-* [ApiError](https://www.github.com/ZahraN444/hammett-washington-js-sdk/tree/1.7.3/doc/api-error.md)
+* [ApiResponse](https://www.github.com/ZahraN444/hammett-washington-js-sdk/tree/1.7.4/doc/api-response.md)
+* [ApiError](https://www.github.com/ZahraN444/hammett-washington-js-sdk/tree/1.7.4/doc/api-error.md)
 
